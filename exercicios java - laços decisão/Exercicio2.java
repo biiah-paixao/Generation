@@ -18,48 +18,39 @@ public class Exercicio2 {
 		System.out.println("\nEntre com o terceiro numero: ");
 		num3 = leia.nextFloat();
 		
-		if(num1>num2 && num1>num3)
+		if(num1<num2 && num1<num3)
 		{
-			System.out.println("\nO primeiro numero é: "+num1);
-			if(num2>num3)
+			if(num2<num3)
 			{
-				System.out.println("\nO segundo numero é: "+num2);
-				System.out.println("\nO terceiro numero é: "+num3);
+				System.out.println("\nOs numeros em ordem crescente é: "+num1 + " / " + num2 + " / " + num3);
 			}
 			else
 			{
-				System.out.println("\nO segundo numero é: "+num2);
-				System.out.println("\nO terceiro numero é: "+num3);
+				System.out.println("\nOs numeros em ordem crescente é: "+num1 + " / " + num3 + " / " + num2);
 			}
 		}
 		
-		else if(num2>num1 && num2>num3)
+		else if(num2<num1 && num2<num3)
 		{
-			System.out.println("\nO primeiro numero é: "+num2);
-			if(num1>num3)
+			if(num1<num3)
 			{
-				System.out.println("\nO segundo numero é: "+num1);
-				System.out.println("\nO terceiro numero é: "+num3);
+				System.out.println("\nOs numeros em ordem crescente é: "+ num2 + " / " + num1 + " / " + num3);
 			}
 			else
 			{
-				System.out.println("\nO segundo numero é: "+num1);
-				System.out.println("\nO terceiro numero é: "+num3);
+				System.out.println("\nOs numeros em ordem crescente é: "+ num2 + " / " + num3 + " / " + num1);
 			}
 		}
 		
 		else
 		{
-			System.out.println("\nO primeiro numero é: "+num3);
 			if(num2>num1)
 			{
-				System.out.println("\nO segundo numero é: "+num2);
-				System.out.println("\nO terceiro numero é: "+num1);
+				System.out.println("\nOs numeros em ordem crescente é: "+ num3 + " / " + num2 + " / " + num1);
 			}
 			else
 			{
-				System.out.println("\nO segundo numero é: "+num1);
-				System.out.println("\nO terceiro numero é: "+num2);
+				System.out.println("\nOs numeros em ordem crescente é: "+num3 + " / " + num1 + " / " + num2);
 			}
 			
 		}
