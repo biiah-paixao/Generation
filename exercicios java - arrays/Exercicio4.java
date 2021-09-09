@@ -11,7 +11,7 @@ public class Exercicio4 {
 		int matriz2[][] = new int[2][2];
 		int matrizSoma[][] = new int[2][2];
 		int matrizDif[][] = new int[2][2];
-		int l,c,op,valor,num;
+		int l,c,op,num,constante;
 		
 		Scanner leia = new Scanner(System.in);
 		
@@ -63,7 +63,7 @@ public class Exercicio4 {
 				{
 					for(c=0;c<2;c++)
 					{
-						matrizDif[l][c] = matriz1[l][c] - matriz2[l][c];
+						matrizDif[l][c] = matriz2[l][c] - matriz1[l][c];
 						System.out.print(" [ "+matrizDif[l][c]+" ] ");
 					}
 				System.out.print("\n");
@@ -71,15 +71,15 @@ public class Exercicio4 {
 				break;
 				
 			case 3:
-				System.out.println("\nDigite um número: ");
-				valor = leia.nextInt();
+				System.out.println("\nDigite uma constante: ");
+				constante = leia.nextInt();
 				
 				System.out.println("\nMatriz 1: ");
 				for(l=0;l<2;l++)
 				{
 					for(c=0;c<2;c++)
 					{
-						matriz1[l][c]+= valor;
+						matriz1[l][c]+= constante;
 						System.out.print(" [ "+matriz1[l][c]+" ] ");
 					}
 				System.out.print("\n");
@@ -89,7 +89,7 @@ public class Exercicio4 {
 				{
 					for(c=0;c<2;c++)
 					{
-						matriz2[l][c]+= valor;
+						matriz2[l][c]+= constante;
 						System.out.print(" [ "+matriz1[l][c]+" ] ");
 					}
 				System.out.print("\n");
