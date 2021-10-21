@@ -142,6 +142,11 @@ main{
     display: inline-block;
 }
 
+.player{
+    width: 20px; 
+    height: 20px
+}
+
 .icons img{
     width: 30px; 
     height: 30px; 

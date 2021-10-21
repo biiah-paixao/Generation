@@ -74,15 +74,16 @@
 
                     <div>
                         <button onclick="document.getElementById('player').play()">
-                            <img style="width: 20px; height: 20px" src="assets/img/icones/play.png" alt=""></button>
+                            <img class="player" src="assets/img/icones/play.png" alt=""></button>
                         <button onclick="document.getElementById('player').pause()">
-                            <img style="width: 20px; height: 20px" src="assets/img/icones/pause.png" alt=""></button>
+                            <img class="player" src="assets/img/icones/pause.png" alt=""></button>
                         <button onclick="document.getElementById('player').volume+=0.1">
-                            <img style="width: 20px; height: 20px" src="assets/img/icones/diminuir.png" alt=""></button>
+                            <img class="player" src="assets/img/icones/diminuir.png" alt=""></button>
                         <button onclick="document.getElementById('player').volume-=0.1">
-                            <img style="width: 20px; height: 20px" src="assets/img/icones/aumentar.png" alt=""></button>
+                            <img class="player" src="assets/img/icones/aumentar.png" alt=""></button>
                         <p> Caso queria uma musica de fundo</p>
                     </div>
+
                     <audio id="player" autoplay="autoplay">
                         <source src="assets/sons/sunshine-by-joakim-karud-official.mp3" type="audio/mp3" />
                         seu navegador não suporta HTML5
