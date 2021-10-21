@@ -141,6 +141,12 @@ main{
     justify-content: center;
     display: inline-block;
 }
+
+.icons img{
+    width: 30px; 
+    height: 30px; 
+    padding: 30px
+}
 footer{
     background-color: #896AA3;
     text-align: center;
