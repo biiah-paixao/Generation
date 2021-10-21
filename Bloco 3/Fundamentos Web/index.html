@@ -8,10 +8,13 @@
    <meta name="description" content="Pagina HTML Gen">
    <meta name="keywords" content="html5">
    <title>Meu Perfil</title>
+
+   <link rel="stylesheet" href="assets/css/style.css">
+   
 </head>
 
 <body>
-   <ul>
+   <ul id="menu">
       <li>
          <a href="index.html"> Home </a>
       </li>
@@ -20,60 +23,58 @@
       </li>
    </ul>
 
-   <h1 style="text-align: center">Sobre o Beatriz Paixão</h1>
-   <div>
+   <h1 class="center">Sobre o Beatriz Paixão</h1>
+   <div class="container">
 
       <div>
-         <img width="300" height="300 border-radius: 50%; width:300; padding:30px" src="assets/img/biiah_paixao.jpg"
-            alt="Foto do criador desse conteudo">
+         <img width="300" height="300" class="br-50 wh-300 p-30" src="assets/img/biiah_paixao.jpg" alt="Foto do criador desse conteudo">
       </div>
 
-      <div>
-         <p>
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatem odio possimus, dolorem earum atque
-            itaque quas soluta placeat iure omnis porro cum debitis sequi libero! Deleniti vitae quis hic cumque.
-            Lorem ipsum, dolor sit amet consectetur adipisicing elit. Eius inventore ullam, quia deserunt enim cumque
-            hic officia repudiandae ad ab et sapiente qui vitae accusamus adipisci provident sit assumenda laboriosam!
+      <div class="p-30">
+         <p class="justify">
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatem odio possimus, dolorem earum atque itaque quas soluta placeat iure omnis porro cum debitis sequi libero! Deleniti vitae quis hic cumque.
+            Lorem ipsum, dolor sit amet consectetur adipisicing elit. Eius inventore ullam, quia deserunt enim cumque hic officia repudiandae ad ab et sapiente qui vitae accusamus adipisci provident sit assumenda laboriosam!
          </p>
-         <p>
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusamus tempore et pariatur, illo fugit,
-            architecto autem aperiam, dignissimos dolore eius tenetur sunt illum inventore asperiores officia voluptates
-            expedita explicabo perspiciatis!
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptates distinctio velit, eveniet placeat
-            reiciendis, eum et tempora fuga doloribus repellendus, possimus rem tempore ipsam aut eligendi beatae quidem
-            saepe temporibus.
+         <p class="justify">
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusamus tempore et pariatur, illo fugit, architecto autem aperiam, dignissimos dolore eius tenetur sunt illum inventore asperiores officia voluptates expedita explicabo perspiciatis!  
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptates distinctio velit, eveniet placeat reiciendis, eum et tempora fuga doloribus repellendus, possimus rem tempore ipsam aut eligendi beatae quidem saepe temporibus.
          </p>
       </div>
    </div>
 
-   <h2 style="text-align: center">Meu video predileto:</h2>
+   <h2 class="center">Meu video predileto:</h2>
 
-   <div>
-      <iframe width="560" height="315" src="https://www.youtube.com/embed/fEy7olomFWA" frameborder="0"      
-         allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+   <div class="container mb-50">
+      <iframe 
+      width="560" 
+      height="315" 
+      src="https://www.youtube.com/embed/tYCXQoo-doM" 
+      frameborder="0" 
+      allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" 
+      allowfullscreen
+      ></iframe>
    </div>
    <hr>
-   <footer style="text-align: center">
+   <footer>
 
-      <div>
+      <div class="container">
          <a href="https://www.facebook.com/" target="_blank">
-            <img style="width: 30px; height: 30px; padding: 30px" src="assets/img/facebook.png" alt="Logo do Facebook">
+            <img class="tm-social p-30" src="assets/img/facebook.png" alt="Logo do Facebook">
          </a>
-
+         
          <a href="https://www.linkedin.com/" target="_blank">
-            <img style="width: 30px; height: 30px; padding: 30px" src="assets/img/linkedin.png" alt="Logo do Linkedin">
+            <img class="tm-social p-30" src="assets/img/linkedin.png" alt="Logo do Linkedin">
          </a>
-
+         
          <a href="https://www.instagram.com/" target="_blank">
-            <img style="width: 30px; height: 30px; padding: 30px" src="assets/img/instagram.png" alt="Logo do Intagram">
+            <img class="tm-social p-30" src="assets/img/instagram.png" alt="Logo do Intagram">
          </a>
-
+         
       </div>
 
-      <p style="text-align: center">
+      <p class="center">
          Todos os direitos reservados: Thiago Lima &copy
-      </p>
+      </p> 
    </footer>
 </body>
-
 </html>
