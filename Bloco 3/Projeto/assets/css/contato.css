@@ -1,0 +1,35 @@
+label {
+    font-weight: bold;
+    display: inline-block;
+}
+
+input, textarea{
+    width: 100%;
+    padding: 10px;
+    border: 2px solid rgb(143, 99, 194);
+    border-radius: 4px;
+}
+
+form input:focus{
+    border-color: green;
+}
+
+button {
+    padding: 10px;
+    background-color: white;
+    border: 2px solid rgb(143, 99, 194);
+    border-radius: 4px;
+    padding: 15px;
+    box-shadow: 0 0 10px #719ECE;
+}
+
+button:hover {
+    background-color: rgb(143, 99, 194);
+    color: white;
+
+}
+
+input, textarea {
+    outline-color: rgba(73, 38, 80, 0.8);
+    box-shadow: 0 0 10px #719ECE;
+  } 
