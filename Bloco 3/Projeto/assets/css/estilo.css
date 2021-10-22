@@ -136,6 +136,10 @@ main{
  
  }
 
+ .ml-50 {
+    margin-left: 50px;
+ }
+
 .icons{
     display: flex; 
     justify-content: center;
@@ -160,3 +164,4 @@ footer{
     font-size: 14px;
     border-bottom: 2px solid rgb(71, 71, 71);  
 }
+
