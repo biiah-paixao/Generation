@@ -10,7 +10,7 @@ h2{
 }
 
 .hero{
-    background-image: url(/Projeto/assets/img/fundo4.jpg);
+    background-image: url(../img/fundo4.jpg);
     height: 500px;
     background-position: right center;
     background-size: cover;
